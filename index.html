@@ -10,28 +10,28 @@
     <link rel="stylesheet" href="./css/main.minify.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="container">
-            <div class="header-inner">
-                <a href="#" class="site-logo-link">
-                    <img src="./images/site-logo.svg" alt="site logo" class="site-logo" width="235" height="24">
+            <div class="header__inner">
+                <a href="#" class="header__link">
+                    <img class="header__logo" src="./images/site-logo.svg" alt="site logo"  width="235" height="24">
                 </a>
 
-                <ol class="header-list">
-                    <li class="header-item active-header-item">
-                        <a href="./index.html" class="header-item-link">
+                <ol class="header__list">
+                    <li class="header__item header__active-item ">
+                        <a href="./index.html" class="header__item-link">
                             HOME
                         </a>
                     </li>
 
-                    <li class="header-item">
-                        <a href="#" class="header-item-link">
+                    <li class="header__item">
+                        <a href="#" class="header__item-link">
                             ABOUT US
                         </a>
                     </li>
 
-                    <li class="header-item ">
-                        <a href="#" class="header-item-link">
+                    <li class="header__item ">
+                        <a href="#" class="header__item-link">
                             CREATE YOUR PLAN
                         </a>
                     </li>
@@ -41,33 +41,111 @@
     </header>
 
     <main>
+
+        <!-- section HERO started -->
         <section class="hero">
-            <div class="hero-in">
+            <div class="hero__box">
                 <div class="container">
-                    <div class="hero-inner">
-                        <div class="hero-info">
-                            <div class="site-title-box">
-                                <h1 class="site-title">
+                    <div class="hero__inner">
+                        <div class="hero__info info">
+                            <div class="info__box">
+                                <h1 class="info__title">
                                     Good coffee <br> is made simply.
                                 </h1>
                             </div>
     
-                            <p class="site-text">
+                            <p class="info__text">
                                 Start your mornings with the world’s best coffees. Try our <br> expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.
                             </p>
     
-                            <button class="hero-button">
+                            <button class="info__button">
                                 create your plan
                             </button>
                         </div>
     
-                        <div class="hero-right">
-                            <img src="./images/hero-logo.svg" width="213" height="214" alt="hero logo" class="hero-logo">
+                        <div class="hero__right">
+                            <img class="hero__logo" src="./images/hero-logo.svg" width="213" height="214" alt="hero logo" >
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- section HERO ended -->
+
+
+        <!-- section collection started  -->
+        <section class="collection">
+            <div class="collection__box">
+                <div class="container container-1">
+                    <div class="collection__inner">
+                        <h2 class="collection__title">
+                            our collection
+                        </h2>
+    
+                        <ul class="collection__list">
+                            <li class="collection__item item">
+                                <img class="item__img" src="./images/coffee-1.png" width="450" height="375" alt="Danche coffee" >
+    
+                                <div class="item__info">
+                                    <h3 class="item__title">
+                                        danche
+                                    </h3>
+    
+                                    <p class="item__text">
+                                        Ethiopian hand-harvested blend densely packed with vibrant fruit notes.
+                                    </p>
+                                </div>
+                            </li>
+    
+                            <li class="collection__item item">
+                                <img class="item__img" src="./images/coffee-1.png" width="450" height="375" alt="Danche coffee" >
+    
+                                <div class="item__info">
+                                    <h3 class="item__title">
+                                        gran espresso
+                                    </h3>
+    
+                                    <p class="item__text">
+                                        Light and flavorful blend with cocoa and black pepper for an intense experience.
+                                    </p>
+                                </div>
+                            </li>
+    
+                            <li class="collection__item item">
+                                <img class="item__img" src="./images/coffee-1.png" width="450" height="375" alt="Danche coffee" >
+    
+                                <div class="item-info">
+                                    <h3 class="item__title">
+                                        piccollo
+                                    </h3>
+    
+                                    <p class="item__text">
+                                        Mild and smooth blend featuring notes of toasted almond and dried cherry.
+                                    </p>
+                                </div>
+                            </li>
+    
+                            <li class="collection__item item">
+                                <img src="./images/coffee-1.png" width="450" height="375" alt="Danche coffee" class="collection-img">
+    
+                                <div class="item__info">
+                                    <h3 class="item__title">
+                                        planalto
+                                    </h3>
+    
+                                    <p class="item__text">
+                                        Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        
     </main>
 </body>
 </html>
