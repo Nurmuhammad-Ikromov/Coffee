@@ -33,6 +33,7 @@
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 img{
@@ -192,7 +193,7 @@ header{
 .collection {
     position: relative;
     padding: 20px;
-
+    
 }
 
 .collection::before{
@@ -220,7 +221,7 @@ header{
     height: 591px;
     /* overflow: hidden; */
     content: "";
-
+    
 }
 
 
@@ -233,7 +234,7 @@ header{
     background-blend-mode: overlay;
     width: 1480px;
     margin: 0 auto;
-
+    
 }
 
 .collection__box::before{
@@ -253,7 +254,7 @@ header{
 }
 .collection__inner {
     padding: 50px 0;
-
+    
 }
 .collection__title {
     font-weight: 700;
@@ -304,3 +305,75 @@ header{
     color: #333333;
     margin: 0;
 }
+
+
+
+
+/* -----------------------------------------------BOX-------------------------------------------  */
+
+
+
+/* 
+
+.box {
+    background-color: #C99B67;
+}
+.container {
+}
+.box__inner {
+}
+.box__title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    font-variant: small-caps;
+    
+    color: #FFFFFF;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.box__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin: 0;
+    margin-bottom: 80px;
+}
+.box__list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.box__item {
+    margin: 0;
+    width: 433px;
+}
+.card {
+}
+.card__img {
+    width: 433px;
+    height: 500px;
+}
+.card__title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    font-variant: small-caps;
+    color: #333;
+    margin: 0;
+}
+.card__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #333333;
+    margin: 0;
+} */
